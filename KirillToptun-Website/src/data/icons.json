@@ -1,0 +1,17 @@
+[
+    {
+        "img": "icons/github.png",
+        "greenImg": "icons/githubGreen.png",
+        "link": "https://github.com/nzdrifts"
+    },
+    {
+        "img": "icons/linkedIn.png",
+        "greenImg": "icons/linkedInGreen.png",
+        "link": ""
+    },
+    {
+        "img": "icons/mail.png",
+        "greenImg": "icons/mailGreen.png",
+        "link": "mailto:kirilltoptun@gmail.com"
+    }
+]

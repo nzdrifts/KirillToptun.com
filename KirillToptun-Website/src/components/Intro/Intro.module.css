@@ -1,0 +1,46 @@
+@import "../../vars.css";
+
+.container {
+    padding-top: 160px;
+    position: relative;
+    max-width: 600px;
+    margin-left: 25%;
+    margin-right: 15%;
+    
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+  }
+  
+  .greenDot {
+    color: var(--color-green);
+    
+  }
+  .green {
+    color: var(--color-green);
+  }
+
+  .subtitle {
+    font-size: 30px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    font-weight: 200;
+  }
+
+  .button {
+    background-color: var(--color-green);
+    color: var(--color-bg);
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
