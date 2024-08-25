@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container{
-    margin-top: 300px;
+    margin-top: 600px;
     position: relative;
 }
 
@@ -45,6 +45,38 @@
     font-weight: 200;
   }
 
+  .myLinks{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    
+  }
+
+  .myLinksText{
+    color: var(--color-green);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .arrow{
+    height: 0.8em; /* Make the arrow height match the text */
+    width: auto;
+    padding-left: 6px;
+  }
+
+  .iconList {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+  }
+  
+  .iconButton {
+    margin-top: 7px;
+    cursor: pointer;
+    width: 20px;
+    margin-right: 12px; 
+  }
+
   .aboutRight{
     width: 300px;
   }
@@ -72,4 +104,5 @@
     padding: 2px 10px;
     font-size: 16px;
     font-weight: 300;
+    list-style: none;
   }

@@ -18,6 +18,8 @@ export const Navbar = () => {
             <a
               key={id}
               href = {icon.link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 

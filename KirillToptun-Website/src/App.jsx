@@ -5,15 +5,15 @@ import { About } from ".//components/About/About";
 
 function App() {
 
+  
+
   return (
     <div className={styles.App}>
-      <Navbar />
-      <Intro />
-      <div className={styles.container}>
-        <About />
-      </div>
-      
-      
+        <Navbar />
+        <Intro />
+        <div className={styles.container}>
+          <About />
+        </div>
     </div>
   )
 }
