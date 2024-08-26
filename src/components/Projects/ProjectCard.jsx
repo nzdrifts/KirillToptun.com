@@ -18,7 +18,7 @@ export const ProjectCard = ({project: {img, title, githubLink, skills, descripti
             onMouseEnter={() => setIsHoveredimgBox(true)}
             onMouseLeave={() => setIsHoveredimgBox(false)}
         >
-            <motion.div
+            <motion.div 
                 animate={isHoveredimgBox ? { scale: 1.2, rotate: 2 } : { scale: 1 }}
                 transition={{ duration: 0.1 }}
             >

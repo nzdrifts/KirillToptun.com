@@ -18,7 +18,6 @@
 .projectImg{
     position: absolute;
     left: 50%;
-    top: 15%;
     transform: translateX(-50%);
     width: 30%;
     height: auto;
