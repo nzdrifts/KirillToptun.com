@@ -1,0 +1,30 @@
+[
+    {
+        "img": "projects/password manager.png",
+        "title": "Password Manager App",
+        "githubLink": "https://github.com/nzdrifts/PasswordManager",
+        "skills": ["Java", "Android Studio", "Gradle"],
+        "description": "This is an android password manager app I created to securily and easily store my passwords on my phone"
+    },
+    {
+        "img": "projects/website.png",
+        "title": "Portfolio Website",
+        "githubLink": "https://github.com/nzdrifts/KirillToptun.com",
+        "skills": ["React", "Node", "JS", "Framer Motion"],
+        "description": ""
+    },
+    {
+        "img": "projects/calculator.png",
+        "title": "Calculator App",
+        "githubLink": "https://github.com/nzdrifts/FirstCalculatorAndroid",
+        "skills": ["Java", "Android Studio", "Gradle"],
+        "description": "This is a simple calculator app I wrote in Java using Gradle and Android Studio"
+    },
+    {
+        "img": "projects/webscraper.png",
+        "title": "Java Web Scraper App",
+        "githubLink": "https://github.com/nzdrifts/Pick-a-PartWebScraperAndroidApp",
+        "skills": ["Java", "Android Studio", "Gradle"],
+        "description": "Enter car models into the search bar to retrieve stock counts from pickapart.co.nz"
+    }
+]

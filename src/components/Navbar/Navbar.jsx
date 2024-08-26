@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
 import icons from '../../data/icons.json';
@@ -33,7 +33,57 @@ export const Navbar = () => {
           );
         })}
       </div>
-      <button className={styles.button}>My resume</button>
+      <ResumeButton/>
     </nav>
+  );
+};
+
+const ResumeButton = () => {
+  const btnRef = useRef(null);
+  const spanRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const {width, height} = e.target.getBoundingClientRect();
+
+      const offsetX = e.offsetX;
+      const offsetY = e.offsetY;
+
+      const left = `${(offsetX/width)*100}%`;
+      const top = `${(offsetY/height)*100}%`;
+
+      spanRef.current.style.scale = 1;
+
+      spanRef.current.style.left = left;
+      spanRef.current.style.top = top;
+    };
+
+    const handleMouseLeave = (e) => {
+      spanRef.current.style.scale = 0;
+    };
+
+    btnRef.current.addEventListener("mousemove",
+    handleMouseMove)
+    btnRef.current.addEventListener("mouseleave",
+    handleMouseLeave)
+
+    return () => {
+      btnRef.current.removeEventListener("mousemove",
+      handleMouseMove)
+      btnRef.current.removeEventListener("mouseleave",
+      handleMouseLeave)
+      
+    }
+  }, [])
+
+
+  return ( 
+  <button ref={btnRef} className={styles.button}>
+    <span className={styles.buttonText}>My resume</span>
+    <span
+      ref={spanRef}
+      className={styles.hoverEffect}
+    ></span>
+    </button>
   );
 };

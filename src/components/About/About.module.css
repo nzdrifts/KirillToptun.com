@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container{
-    margin-top: 600px;
+    margin-top: 350px;
     position: relative;
 }
 
@@ -24,7 +24,7 @@
     flex: 1;
     height: 1px;
     background-color: #ffffff;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
 

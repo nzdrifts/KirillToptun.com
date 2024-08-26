@@ -1,7 +1,8 @@
 import styles from "./App.module.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Intro } from "./components/Intro/Intro";
-import { About } from ".//components/About/About";
+import { About } from "./components/About/About";
+import { Projects } from "./components/Projects/Projects";
 
 function App() {
 
@@ -9,11 +10,12 @@ function App() {
 
   return (
     <div className={styles.App}>
-        <Navbar />
-        <Intro />
-        <div className={styles.container}>
-          <About />
-        </div>
+      <Navbar />
+      <Intro />
+      <div className={styles.container}>
+        <About />
+        <Projects />
+      </div>
     </div>
   )
 }

@@ -1,0 +1,68 @@
+@import "../../vars.css";
+
+.container{
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+.imgBox{
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    background: #242424;
+    border-radius: 6px;
+}
+
+.projectImg{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.titleContainer{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.projectTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.horizontalLine{
+    flex: 1;
+    height: 1px;
+    background-color: #ffffff;
+    margin-left: 12px;
+}
+
+.githubButton{
+    width: 25px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.skillsContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: var(--color-green);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.descriptionContainer{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
