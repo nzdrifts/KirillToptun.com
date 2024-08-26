@@ -1,0 +1,42 @@
+@import "../../vars.css";
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+  .greenDot {
+    color: var(--color-green);
+    
+  }
+
+  .desc {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .linkedin{
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--color-green);
+  }
+
+  .mail{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+    text-decoration: none;
+  }
