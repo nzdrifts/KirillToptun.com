@@ -52,14 +52,13 @@ const ResumeButton = () => {
       const left = `${(offsetX/width)*100}%`;
       const top = `${(offsetY/height)*100}%`;
 
-      spanRef.current.style.scale = 1;
-
+      spanRef.current.style.transform = `translate(-50%, -50%) scale(1)`;
       spanRef.current.style.left = left;
       spanRef.current.style.top = top;
     };
 
     const handleMouseLeave = (e) => {
-      spanRef.current.style.scale = 0;
+      spanRef.current.style.transform = `translate(-50%, -50%) scale(0)`;
     };
 
     btnRef.current.addEventListener("mousemove",
