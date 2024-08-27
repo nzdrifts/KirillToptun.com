@@ -54,6 +54,13 @@ export const Contact = () => {
             href = {"mailto:kirilltoptun@gmail.com"}
             target="_blank"
             rel="noopener noreferrer"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            transition={{duration: 0.5, delay: 0.1}}
+            viewport={{
+              once: true
+          }}
             > kirilltoptun@gmail.com
         </motion.a>
     </div>

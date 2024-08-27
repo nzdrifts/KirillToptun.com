@@ -55,18 +55,22 @@ export const Intro = () => {
         top notch career in software development. Hire me today 
         and I will say thanks mate!
         </motion.p>
-        <motion.button 
+        <a href = {""}>
+        <motion.button
           className={styles.button}
+          
+          target="_blank"
+          rel="noopener noreferrer"
           variants={fadeInAnimationVariants}
           initial="initial"
           whileInView="animate"
-          transition={{duration: 0.5, delay: 0.2}}
+          transition={{duration: 0.5, delay: 0.25}}
           viewport={{
               once: true
           }}
         >
           Contact me
-        </motion.button>
+        </motion.button></a>
     </div>
   )
 }

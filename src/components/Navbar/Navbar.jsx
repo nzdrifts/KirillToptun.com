@@ -3,6 +3,8 @@ import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
 import icons from '../../data/icons.json';
 
+import Pdf from '../../data/pdf.pdf';
+
 export const Navbar = () => {
   // Initialize state with the default image URL for the first icon
   const [hoveredIcon, setHoveredIcon] = useState(null);
@@ -78,7 +80,12 @@ const ResumeButton = () => {
 
   return ( 
   <button ref={btnRef} className={styles.button}>
-    <span className={styles.buttonText}>My resume</span>
+    <a href = {Pdf} 
+    target="_blank"
+    rel='noopener noreferrer' className={styles.buttonText}
+    >
+      <span className={styles.buttonText}>My resume</span>
+    </a>
     <span
       ref={spanRef}
       className={styles.hoverEffect}
