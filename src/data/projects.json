@@ -4,7 +4,7 @@
         "title": "Password Manager App",
         "githubLink": "https://github.com/nzdrifts/PasswordManager",
         "skills": ["Java", "Android Studio", "Gradle"],
-        "description": "This is an android password manager app I created to securily and easily store my passwords on my phone",
+        "description": "A native Android app to localy store passwords on your mobile phone. With AES ecryption and biometric authentication passwords are securily stored and quick and easy to access. I use this as my personal password manager",
         "orientation": "true"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Portfolio Website",
         "githubLink": "https://github.com/nzdrifts/KirillToptun.com",
         "skills": ["React", "Node", "JS", "Framer Motion"],
-        "description": "",
+        "description": "The current website you are vieweing. In a couple of weeks I taught myself JS, CSS and React, this website is a showcase of what I have learned so far, building it from the ground-up",
         "orientation": "false"
     },
     {

@@ -66,7 +66,13 @@ export const About = () => {
                         once: true
                     }}
                 >
-                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?                
+                    I am a former student of the Univerity of Auckland with a Bachelors in Computer Science and Information Technology Managment. 
+                    <br/><br/>
+                    I am very interested in Full-Stack development, with experience in creating Front-End React websites (such as this one),
+                    aswell as managing API calls with Python and JS.
+                    <br/><br/>
+                    Throughout many of my projects I have also worked with Java, learing how to write native android apps 
+                    using Android Studio
                 </motion.p>
                 <div className={styles.myLinks}>
                     <motion.p 
@@ -118,10 +124,19 @@ export const About = () => {
                 </div>
             </div>
             <div className={styles.aboutRight}>
-                <div className={styles.mySkillsHeading}>
+                <motion.div 
+                    className={styles.mySkillsHeading}
+                    variants={fadeInAnimationVariantsSkills}
+                                initial="initial"
+                                whileInView="animate"
+                                transition={{duration: 0.5, delay: 0.25}}
+                                viewport={{
+                                    once: true
+                                }}
+                >
                     <img src={getImageUrl("about/cmdIcon.png")} alt="My skills image" style={{ maxWidth: '25px'}} />
                     <h3 className={styles.mySkillsHeadingText}>My Skills</h3>
-                </div>
+                </motion.div>
                 <ul className={styles.skills}>
                     {skills.map((skill, id) => (
                             <motion.li 
