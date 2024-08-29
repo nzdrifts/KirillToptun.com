@@ -16,6 +16,14 @@
         "orientation": "false"
     },
     {
+        "img": "projects/sudoku.png",
+        "title": "Sudoku Game",
+        "githubLink": "https://github.com/nzdrifts/sudoku-game",
+        "skills": ["Java", "Android Studio", "Gradle"],
+        "description": "Sudoku mobile game. Choose from 3 difficulty settings, track your average times, comlpetely different starting board generated every new game",
+        "orientation": "true"
+    },
+    {
         "img": "projects/calculator.png",
         "title": "Calculator App",
         "githubLink": "https://github.com/nzdrifts/FirstCalculatorAndroid",
