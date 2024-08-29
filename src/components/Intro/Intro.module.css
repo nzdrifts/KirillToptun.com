@@ -1,47 +1,68 @@
 @import "../../vars.css";
 
 .container {
-    padding-top: 160px;
-    position: relative;
-    max-width: 600px;
-    margin-left: 25%;
-    margin-right: 15%;
-    
+  padding-top: 160px;
+  position: relative;
+  max-width: 600px;
+  margin-left: 25%;
+  margin-right: 15%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.htmlimg {
+  position: absolute;
+  top: 40%;
+  right: -75%;
+  max-width: 100%;
+  opacity: 20%;
+  z-index: 0.5;
 }
 
 h1 {
-    font-size: 80px;
-    font-weight: 800;
-  }
-  
-  .greenDot {
-    color: var(--color-green);
-    
-  }
-  .green {
-    color: var(--color-green);
-  }
+  position: relative;
+  z-index: 2;
+  font-size: 80px;
+  font-weight: 800;
+}
 
-  .subtitle {
-    font-size: 30px;
-    margin-bottom: 2px;
-    font-weight: 500;
-  }
-  
-  .description {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 16px;
-    font-weight: 200;
-  }
+.greenDot {
+  color: var(--color-green);
+}
 
-  .button {
-    background-color: var(--color-green);
-    color: var(--color-bg);
-    border: none;
-    padding: 8px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-  }
+.green {
+  color: var(--color-green);
+}
+
+.subtitle {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.description {
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  font-weight: 200;
+}
+
+.button {
+  position: relative;
+  z-index: 2;
+  background-color: var(--color-green);
+  color: var(--color-bg);
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
