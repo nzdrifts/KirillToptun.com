@@ -74,7 +74,7 @@ export const Intro = () => {
               once: true
           }}
         >
-        "Hello Viewer!" In my free time I like to work on personal projects and teach myself new skills with each one
+        "Hello Viewer!", In my free time I like to work on personal projects and teach myself new skills with each one
         </motion.p>
         <a href = {"mailto:kirilltoptun@gmail.com"}>
         <motion.button

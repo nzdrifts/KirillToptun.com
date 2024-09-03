@@ -20,7 +20,7 @@
         "title": "Sudoku Game",
         "githubLink": "https://github.com/nzdrifts/sudoku-game",
         "skills": ["Java", "Android Studio", "Gradle"],
-        "description": "Sudoku mobile game. Choose from 3 difficulty settings, track your average times, comlpetely different starting board generated every new game",
+        "description": "Sudoku mobile game. Choose from 3 difficulty settings, track your average times, a different starting board generated every new game",
         "orientation": "true"
     },
     {

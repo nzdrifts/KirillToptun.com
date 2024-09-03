@@ -24,11 +24,10 @@ export const Navbar = () => {
               rel="noopener noreferrer"
             >
               <img
-                
                 src={imgSrc}
                 className={styles.iconButton}
                 onMouseEnter={() => setHoveredIcon(id)}
-                onMouseLeave={() => setHoveredIcon(null)}
+                onMouseLeave={() => setHoveredIcon(imgSrc)}
                 alt={icon.img}
               />
             </a>
